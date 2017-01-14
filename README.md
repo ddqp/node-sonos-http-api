@@ -1,3 +1,20 @@
+/home/pi/node-sonos-http-api/node_modules/sonos-discovery/lib/models/Player.js
+
+注释掉如下就可以
+139   return Object.freeze({$
+140   //  currentTrack: coordinatorInternal.currentTrack,$
+141   //  nextTrack: coordinatorInternal.nextTrack,$
+142     volume: playerInternal.volume,$
+143    // mute: playerInternal.mute,$
+144 //    trackNo: coordinatorInternal.trackNo,$
+145   //  elapsedTime: elapsedTime,$
+146 //    elapsedTimeFormatted: formatTime(elapsedTime),$
+147     playbackState: coordinatorInternal.playbackState,$
+148 //    playMode: coordinatorInternal.playMode$
+
+
+
+
 [![PayPal donate button](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.me/jishi "Donate once-off to this project using Paypal")
 
 Feel free to use it as you please. Consider donating if you want to support further development.
